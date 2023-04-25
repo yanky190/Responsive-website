@@ -6,9 +6,10 @@ jQuery(document). ready(function(){
         perturbance: 0.01,
     });
 
-    $(".text").typed({
-        strings: ["First Sentence.", "Second Sentence"],
-        typespeed: 0,
+
+    $('.text').typed( {
+        strings: ["<strong>i Love </strong> <strong class='primary'>coding.</strong>", "<stong>and to</strong><strong class='primary'>Shear!!.</strong>'],
+        typeSpeed: 0,
         loop: true
-    })
-})
+      });
+    });
