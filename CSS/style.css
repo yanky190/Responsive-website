@@ -256,7 +256,7 @@ transition: all 0.5s ease-in;
     color: #ffff;
 }
 
-.service-wrap: h3{
+.service-wrap h3{
     color: #ffff;
 }
 
