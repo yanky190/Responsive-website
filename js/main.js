@@ -22,6 +22,25 @@ jQuery(document). ready(function(){
         }
       });
 
-      $("#team-members").owlCarousel();
+    $("#team-members").owlCarousel({
+      items: 3,
+      autoplay: true,
+      smartSpeed: 500,
+      loop: true,
+      autoplayHoverPause: true,
+      Response:{
+      0:{
+        items: 1
+      },
+
+      480:{
+        items: 2
+      },
+
+      768:{
+        items: 3
+      }
+    }
+    });
 
     });
