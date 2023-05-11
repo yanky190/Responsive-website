@@ -1,6 +1,6 @@
 jQuery(document). ready(function(){
 
-    "user strick"
+  
     $('.slider').ripples({
         dropRadius: 2,
         perturbance: 0.01,
@@ -25,7 +25,7 @@ jQuery(document). ready(function(){
     $("#team-members").owlCarousel({
       items: 3,
       autoplay: true,
-      smartSpeed: 500,
+      smartSpeed: 700,
       loop: true,
       autoplayHoverPause: true,
       Response:{
@@ -41,6 +41,6 @@ jQuery(document). ready(function(){
         items: 3
       }
     }
-    });
+  });
 
-    });
+});
