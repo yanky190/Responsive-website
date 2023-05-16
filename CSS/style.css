@@ -645,7 +645,8 @@ h4.team-member-designation{
 
 /*========Counter Style Style Stars=======*/
 .stat{
-    background-image: url(../img/cover-bg-1.png);
+    background-image: 
+   linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url(../img/cover-bg-1.png);
     background-position: center;
     padding-top: 180px;
     padding-bottom: 200px;
