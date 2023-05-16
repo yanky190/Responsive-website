@@ -486,10 +486,6 @@ h4.team-member-designation{
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url(../img/backf.png);
     padding-top: 180px;
     padding-bottom: 180px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
     overflow: hidden;
     margin-top: 40px;
     background-attachment: fixed;
@@ -532,4 +528,149 @@ h4.team-member-designation{
 }
 
 /*========Vidoe Style Ends=======*/
+
+
+/*========Blogs Style Stars=======*/
+.latest-news-area{
+    margin-top: 40px;
+}
+
+.latest-news-wrap{
+    box-shadow: 0px 3px 10px rgba(0,0,0,.1);
+}
+
+.news-img{
+    position: relative;
+}
+
+.news-img:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content: "";
+    opacity: 0;
+    transform: scale(.8);
+    transition: all 0.5s;
+}
+
+.latest-news-area:hover .news-img:before{
+    opacity: .5;
+    transform: scale(1);
+}
+
+.date{
+    background: #f89406 none repeat scroll 0 0;
+    height: 70px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    padding: 10px;
+
+}
+
+.date span{
+    display: block;
+    color: white;
+    font-family: 700;
+    font-size: 16px;
+}
+
+.news-content{
+   padding: 20px;
+   margin: 3px; 
+}
+
+.news-content i{
+    font-size: 18px;
+    display: inline-block;
+}
+
+.news-content .fa{
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.news-content .fa-facebook{
+    color: #3b5995;
+}
+
+.news-content .fa-twitter{
+    color: #3b5995;
+}
+
+.news-content .fa-linkedin{
+    color: #3b5995;
+}
+
+.news-content .fa-youtube{
+    color: #953b3b;
+}
+
+.news-content .fa-whatsapp{
+    color: #34af23;
+}
+
+.news-content p{
+  margin-bottom: 15px;
+  text-align: center;
+  margin-top: 20px;  
+}
+
+.news-content a{
+    font-size: 14px;
+    background-color: #34495e;
+    padding: 10px 20px;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+.news-content a:hover{
+    font-size:14px; 
+    border: 1px solid #34495e;
+    border-top-left-radius: 20px;
+    background-color: transparent;
+    color: #34495e;
+    margin-right: 0;
+    text-decoration: none;
+}
+
+
+
+/*========Blogs Style Ends=======*/
+
+/*========Counter Style Style Stars=======*/
+.stat{
+    background-image: url(../img/cover-bg-1.png);
+    background-position: center;
+    padding-top: 180px;
+    padding-bottom: 200px;
+    color: white;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+
+.stat i{
+  font-size: 85px;  
+}
+
+.stat h2{
+    font-weight: bolder;
+    font-size: 42px;
+    color: deepskyblue;
+}
+.stat p{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/*========Counter Style Style Ends=======*/
+
+
+
+
 

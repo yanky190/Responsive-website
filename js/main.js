@@ -1,6 +1,6 @@
-jQuery(document). ready(function(){
+jQuery(document).ready(function(){
 
-  
+    "user strick"
     $('.slider').ripples({
         dropRadius: 2,
         perturbance: 0.01,
@@ -42,5 +42,10 @@ jQuery(document). ready(function(){
       }
     }
   });
+
+  $('.counter').counterUp({
+    delay: 10,
+    time: 4000
+});
 
 });
