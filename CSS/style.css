@@ -671,7 +671,97 @@ h4.team-member-designation{
 
 /*========Counter Style Style Ends=======*/
 
+/*========Form Style Style Stars=======*/
+.contact-area{
+    margin-top: 60px;
+}
 
+.form-control{
+    border-radius: 0px !important;
+    border: 1px solid #34495e !important
+}
 
+.contact-form button.btn{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 12px 43px;
+    border: 1px solid black;
+    border-radius: 0px;
+}
 
+.border-bottom{
+   width: 40px;
+   height: 2px;
+   background-color: black; 
+}
 
+.contact-infos{
+    float: left;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: -30px;
+    background-color: darkcyan;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.contact-infos .fa{
+   color: #fff;
+   font-size: 26px;
+   border: 1px solid white;
+   width: 50px;
+   border-radius: 50%;
+   line-height: 50px; 
+}
+
+.contact-infos .p{
+    color: #fff;
+    margin-top: 15px;
+}
+
+/*========Maps Area Stars=======*/
+
+.maps{
+    margin-top: 20px;
+}
+
+/*========Footer Area Starts=======*/
+.footer{
+    background:  url(../img/footer-bg-img.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 145px;
+    padding-bottom: 120px;
+    background-attachment: fixed;
+    color: #fff;
+}
+.social-icon a{
+    margin: 0 16px 20px 16px;
+    display: inline-block;
+}
+.footer .fa{
+   font-size: 30px;
+   color: deepskyblue;
+   width: 80px;
+   height: 80px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   background: white; 
+   line-height: 60px;
+   border: 10px solid #24495e;
+   text-align: center;
+   transition: all 0.7s ease-in;
+
+}
+.social-icon a:hover .fa{
+    border: 10px solid white;
+    transition: rotate(360deg);
+}
+
+.bordernow{
+    width: 40px;
+    border-bottom: 2px solid white;
+    margin: auto;
+    margin-top: 20px;
+}
