@@ -48,4 +48,6 @@ jQuery(document).ready(function($){
     time: 4000
 });
 
+$('a').smoothScroll();
+
 });
