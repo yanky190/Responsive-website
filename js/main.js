@@ -51,3 +51,15 @@ jQuery(document).ready(function($){
 $('a.smoothscroll').smoothScroll();
 
 });
+
+$("a.smooth-scroll").click(function (event) {
+
+  event.preventDefault();
+
+  var section = $(this).attr("href");
+
+  $('html, body').animate({
+    scrollTop: $(section).offset().top -2
+  }, 1250, "easeOutExpo")
+  });
+
