@@ -7,12 +7,12 @@ jQuery(document).ready(function($){
     });
 
 
-    $('.text').typed({
-        strings:["<strong>i Love </strong> <strong class='primary'>coding.</strong>",
-         "<stong>and to</strong><strong class='primary'>Shear!!.</strong>"],
-        typeSpeed: 0,
-        loop: true
-      });
+    var typed = new Typed('.text', {
+    strings: ["<strong>i Love </strong> <strong class='primary'>coding.</strong>",
+      "<stong>and to </strong><strong class='primary'>Shear!!.</strong>"],
+      typespeed: 0,
+      loop: true
+    });
 
       $('.work').magnificPopup({
         delegate: 'a', // child items selector, by clicking on it popup will open
@@ -25,10 +25,10 @@ jQuery(document).ready(function($){
     $("#team-members").owlCarousel({
       items: 3,
       autoplay: true,
-      smartSpeed: 700,
+      smartSpeed: 750,
       loop: true,
       autoplayHoverPause: true,
-      Response:{
+      Responsive:{
       0:{
         items: 1
       },

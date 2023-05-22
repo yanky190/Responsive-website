@@ -2,6 +2,7 @@
 body{
     overflow-x: hidden;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -115,7 +116,7 @@ transition: all 0.5s ease-in;
     letter-spacing: 1px;
     font-size: 13px;
     border: 2px solid #ffff;
-    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     transition: all 0.5s ease-in;
 
 }
@@ -149,7 +150,7 @@ transition: all 0.5s ease-in;
 
 }
 
-.slider text .slider .typed-cursor{
+.slider .text, .slider .typed-cursor{
     display: inline;
     font-size: 50px;
     text-transform: uppercase;
@@ -160,7 +161,7 @@ transition: all 0.5s ease-in;
 }
 
 .typed-cursor{
-    opacity: 1px;
+    opacity: 1;
     animation: blink 0.7s infinite;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
@@ -301,12 +302,13 @@ transition: all 0.5s ease-in;
 
 .img-wrapper img{
     transition: transform 0.5s ease;
-    width: 100;
+    width: 100%;
     
 }
 
 .img-wrapper img:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
+    cursor: zoom-in;
     
 }
 
@@ -315,9 +317,12 @@ transition: all 0.5s ease-in;
 /*========Work styles ends=======*/
 
 /*========Team styles Starts=======*/
-
 .team-member{
     margin-top: 50px;
+}
+
+.team-member{
+    margin-top: 0 15px;
 }
 
 
@@ -367,37 +372,35 @@ h4.team-member-designation{
 
 /*========Testimonails Starts=======*/
 .carousel-inner img{
-    width: 100%;
-    height: 100%;
-    border-radius: 400%;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
     border: 3px solid #ffff;
     padding: 5px;
-
 }
 
 .testimonials{
-    background-image: url(../img/wcm.jpg);
+    background-image: url(../img/review-back.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: white;
+    color: #fff;
     padding-top: 80px;
-    padding-bottom: 100px;
-
+    padding-bottom: 155px;
 }
 
-.carousel-indicators{
-    bottom: 60px;
-
+.testimonials .carousel-indicators{
+    bottom: -60px;
 }
+
 .border-bottom{
     width: 40px;
     height: 2px;
     background-color: #ffff;
     margin: 0 auto;
-
 }
-.carousel-inner{
+
+.carousel-inner p{
     font-size: 17px;
     font-weight: normal;
     letter-spacing: 1px;
