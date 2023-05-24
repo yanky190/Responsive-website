@@ -48,7 +48,7 @@ jQuery(document).ready(function($){
     time: 4000
 });
 
-$('a.smoothscroll').smoothScroll();
+$('a.smooth-scroll').smoothScroll();
 
 });
 
@@ -59,7 +59,7 @@ $("a.smooth-scroll").click(function (event) {
   var section = $(this).attr("href");
 
   $('html, body').animate({
-    scrollTop: $(section).offset().top -2
-  }, 1250, "easeOutExpo")
+    scrollTop: $(section).offset().top - -2
+  }, 1250, "easeInOutExpo");
   });
 
